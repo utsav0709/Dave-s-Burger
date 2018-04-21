@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+.logo {
+  text-align: center;
+  background-color: #F8EFBA;
+  border-bottom: 1px #05A8AA solid;
+
+}
+.logo img {
+  background-repeat: no-repeat;
+  background-size: 200px;
+  width: 225px;
+  padding-bottom: 20px;
+
+
+
+}
+.nav{
+  text-align: center;
+  margin: 0 auto;
+  background-color: #F8EFBA;
+  width: 100%;
+
+}
+.nav span {
+  display: block;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 16px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px 30px;
+
+  border-bottom: 1px #05A8AA solid;
+}
+.img {
+  background-image: url("../images/burger.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+
+
+
+}
+.img h1 {
+  height: 400px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #05A8AA;
+  font-weight: 400;
+  padding-top: 40px;
+
+}
+
+.img h2 {
+  color: #6D214F;
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.content {
+  height: 600px;
+  background-color: #F8EFBA;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: scroll;
+
+
+}
+.description {
+  padding: 0 auto;
+  text-align: center;
+}
+.description p {
+
+  font-family: 'Roboto', sans-serif;
+  color: #05A8AA;
+  margin-bottom: 50px;
+  line-height: 30px;
+  font-weight: 100;
+  font-size: 20px;
+
+}
+.nutrition {
+  padding: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 55px;
+}
+.nutrition span {
+  border: 1px solid white ;
+  width: 200px;
+  align-self: center;
+  background-color: #05A8AA;
+  border-radius: 6px;
+  padding: 15px 100px;
+  margin-top: 4px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+
+}
+.button {
+  background-color: #F8EFBA;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.button span {
+  font-size: 20px;
+  text-align: center;
+
+  border-radius: 6px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #05A8AA;
+  color: white;
+  position: fixed;
+  bottom: 10;
+  left: 25;
+  right: 40;
+
+
+}
